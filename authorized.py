@@ -129,6 +129,12 @@ def checkIfUserIsInWhiteList():
 	if users.get_current_user().email().lower() == "ahmedriaz@gmail.com":
 		return True;
 
+	if users.get_current_user().email().lower() == "nicicin883@gmail.com":
+		return True;
+
+	if users.get_current_user().email().lower() == "aqcf@yahoo.com":
+		return True;
+
 	return False;
 
 def getLoginPage():
